@@ -1,0 +1,137 @@
+
+@media (min-width: 992px){
+    .section-01 .box-h{
+        height: 100%;
+    }
+    .arrow2.right {
+        width: calc(100% - 260px - 50%) !important;
+        right: 190px;
+        left: auto;
+    }
+
+    .arrow2.black {
+        background: #1c1c1c;
+    }
+    
+    .arrow2.black:after {
+        border-color: #1c1c1c;
+    }
+}
+
+@media (max-width: 1199px) {
+    .section-works .img-work {
+        height: 320px;
+    }
+    .section-works .box1 {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .space-top {
+        margin-top: 178px !important;
+    }
+    body .display-6 {
+        font-size: calc(1.175rem + 1.5vw);
+    }
+    body h4 {
+        font-size: calc(1.175rem + .3vw);
+    }
+    .section-01 .wood-icon {
+        width: 120px;
+        right: 10px;
+        bottom: auto;
+        top: 120px;
+    }
+    nav.navbar .navbar-collapse {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        background: #1c1c1c;
+        padding: 24px;
+        height: 100vh;
+        overflow-y: auto;
+        transition: all .3s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 999;
+    }
+    
+    .header-top nav.navbar .navbar-collapse.show {
+        width: 100%;
+        right: 0;
+    }
+    nav.navbar .nav-item .nav-link {
+        text-align: center;
+        padding: 12px 0;
+    }
+    .section-01 .img2,
+    .section-01 .img1 {
+        height: 550px !important;
+    }
+
+    .btn-arrow {
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%) !important;
+    }
+    .arrow2 {
+        width: 1px !important;
+        height: 462px;
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 115px;
+        padding: 0 !important;
+    }
+    
+    .arrow2:after {
+        bottom: 2px;
+        left: -5px;
+        transform: rotate(45deg);
+    }
+}
+
+@media (max-width: 767px){
+    body {
+        line-height: 21px !important;
+    }
+    body p{
+        font-size: .875em;
+    }
+    .space-top {
+        margin-top: 108px !important;
+    }
+    .padding {
+        padding: 8em 3px;
+    }
+    .logo1 {
+        width: 140px;
+    }
+    .header-top {
+        padding: 35px 3px;
+    }
+    .booknook-pattern {
+        min-width: 1500px;
+    }
+    .section-works .img-work {
+        height: 260px;
+    }
+    
+}
+
+@media (max-width: 575px){
+    .section-01 .box1 {
+        padding: 35px;
+    }
+    .section-works .box1 .display-6 {
+        font-size: calc(1rem + 1.5vw);
+    }
+    .section-works .box1 {
+        padding: 15px;
+    }
+    .section-works .img-work {
+        height: 180px;
+    }
+}

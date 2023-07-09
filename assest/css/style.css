@@ -1,0 +1,379 @@
+@font-face {
+    font-family: 'chirp_thin';
+    src: url('../fonts/chirp_thin.otf');
+}
+
+@font-face {
+    font-family: 'chirp_medium';
+    src: url('../fonts/chirp_medium.otf');
+}
+
+@font-face {
+    font-family: 'MagnatHead_Regular';
+    src: url('../fonts/MagnatHead-Regular.otf');
+}
+
+body {
+    font-family: 'chirp_thin' !important;
+    letter-spacing: .5px !important;
+    line-height: 26px !important;
+}
+
+.font-MagnatHead_Regular {
+    font-family: 'MagnatHead_Regular';
+}
+
+.font-chirp_medium {
+    font-family: 'chirp_medium';
+}
+
+body a:hover,
+body a:focus,
+body a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+body h2,
+body h1,
+.display-6{
+    font-family: 'MagnatHead_Regular';
+}
+
+.link:hover {
+    color: #c7b58b !important;
+}
+
+.fs-14 {
+    font-size: .875em;
+}
+
+.fs-12 {
+    font-size: .75em;
+}
+
+.text-main{
+    color: #c7b58b !important;
+}
+.text-1c{
+    color: #1c1c1c !important;
+}
+.text-white-60 {
+    color: rgba(255,255,255,.6)!important;
+}
+.text-white-80 {
+    color: rgba(255,255,255,.8)!important;
+}
+
+.btn.btn1 {
+    background: #c7b58b;
+    border-color: #c7b58b;
+    color: #1c1c1c;
+    border-radius: 0px;
+    padding: 12px 20px;
+    min-width: 150px;
+    text-transform: uppercase;
+    font-size: .875em;
+    font-family: 'MagnatHead_Regular';
+    box-shadow: none;
+    outline: none;
+    transition: all .4s ease;
+}
+
+.btn.btn1:hover {
+    background: transparent;
+    color: #c7b58b !important;
+    border-color: #c7b58b !important;
+}
+
+.btn.btn-white{
+    background: #fff;
+    border-color: #fff;
+    color: #1c1c1c;
+}
+.btn.btn-white:hover {
+    background: transparent;
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+.btn.btn-black{
+    background: #1c1c1c;
+    border-color: #1c1c1c;
+    color: #fff;
+}
+.btn.btn-black:hover {
+    background: transparent;
+    color: #1c1c1c !important;
+    border-color: #1c1c1c !important;
+}
+
+.padding {
+    padding: 10em 3px;
+}
+
+
+.space-top {
+    margin-top: 164px !important;
+}
+
+.logo1 {
+    width: 220px;
+    margin-right: 2px;
+    vertical-align: middle;
+    transition: all 1s ease;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.header-top {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 70px 3px;
+    z-index: 999;
+    background-color: transparent;
+    transition: all 1s ease;
+}
+nav.navbar {
+    padding: 0;
+}
+nav.navbar .nav-item .nav-link {
+    color: #fff;
+    padding: 0 20px;
+    font-size: 1em;
+    font-weight: 400;
+    transition: all .4s ease;
+    font-family: 'MagnatHead_Regular';
+}
+nav.navbar .nav-item .nav-link.show,
+nav.navbar .nav-item .nav-link:hover {
+    color: #c7b58b;
+    /* -webkit-transform: scale(1.12);
+    -ms-transform: scale(1.12);
+    transform: scale(1.12); */
+}
+
+nav.navbar .nav-item .nav-link.active {
+    color: #fff;
+}
+
+nav.navbar .nav-item .nav-link i.fa-minus {
+    display: none;
+}
+
+nav.navbar .navbar-toggler {
+    border: 0;
+    padding: 4px 4px;
+    margin: 0;
+    box-shadow: none !important;
+    background: transparent;
+}
+
+nav.navbar .nav-item .btn {
+    color: #fff;
+    background: #c7b58b;
+    border-radius: 3px;
+    padding: 14px 20px;
+    line-height: 1;
+    font-weight: 500;
+    box-shadow: none;
+    outline: none;
+    display: inline-block;
+}
+
+nav.navbar .nav-item .btn:hover {
+    background: #c7b58b;
+    color: #fff;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
+nav.navbar .nav-item .btn.btn-login {
+    background: transparent;
+    transition: all .4s ease, background .1s ease;
+}
+
+
+nav.navbar .nav-item .btn.btn-login:hover {
+    background: #c7b58b;
+}
+
+nav.navbar .nav-item .dropdown-menu {
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 30px rgb(0 0 0 / 12%);
+}
+
+nav.navbar .nav-item .dropdown-menu .dropdown-item {
+    font-size: 1em;
+    padding: 10px 20px;
+    color: #666;
+}
+
+nav.navbar .nav-item .dropdown-menu .dropdown-item:hover {
+    color: #c7b58b;
+    background: transparent;
+}
+
+
+.banner-section {
+    background: url(../images/living-room-with-couch-chairs-table-with-books-it.jpg);
+    background-size: cover;
+background-position:center;
+}
+.banner-section .overlay {
+    background: rgb(0 0 0 / 50%);
+    height: 100%;
+    min-height: 120vh;
+}
+
+.booknook-pattern {
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    min-width: 2000px;
+    height: 100%;
+    object-fit: cover;
+    opacity: .12;
+    z-index: 0;
+}
+
+.arrow {
+    width: 1px;
+    height: 150px;
+    background: #fff;
+    margin: auto;
+    position: relative;
+}
+
+.arrow:after {
+    content: '';
+    border: 1px solid #fff;
+    border-top: 0;
+    border-left: 0;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    bottom: 2px;
+    left: -5px;
+    transform: rotate(45deg);
+}
+
+/* .nav.nav1 */
+
+.nav.nav1 .nav-link {
+    font-family: 'MagnatHead_Regular';
+    color: #fff;
+    font-size: .875em;
+    padding: 8px 20px;
+}
+
+.nav.nav1 .nav-link:hover {
+    color: #c7b58b;
+}
+
+
+.section-01 {
+    background: #1c1c1c;
+}
+.section-01 .box1 {
+    background: #c7b58b;
+    padding: 60px;
+    box-shadow: 0 0 20px rgb(0 0 0 / 15%);
+}
+.section-01 .img1 {
+    object-fit: cover;
+}
+
+.section-01 .wood-bg:after {
+    content: '';
+    background: linear-gradient(45deg, rgb(0 0 0 / 0%), #000);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.section-01 .wood-icon {
+    position: absolute;
+    width: 180px;
+    right: 40px;
+    bottom: 40px;
+    z-index: 2;
+    opacity: .50;
+}
+
+
+
+.btn-arrow {
+    position: absolute;
+    bottom: 40px;
+    right: -26px;
+    z-index: 3;
+}
+
+.arrow2 {
+    width: calc(100% - 260px) !important;
+    height: 1px;
+    background: #fff;
+    margin: auto;
+    position: absolute;
+    bottom: 62px;
+    left: 70px;
+    z-index: 3;
+}
+.arrow2:after {
+    content: '';
+    border: 1px solid #fff;
+    border-top: 0;
+    border-left: 0;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    bottom: -4.5px;
+    right: 1px;
+    transform: rotate(-45deg);
+}
+
+.banner-section.contact .overlay{
+    background: linear-gradient(90deg, #fff, rgb(255 255 255 / 50%), transparent, transparent);
+}
+
+
+.section-works{
+    background: #1c1c1c;
+}
+.section-works .box1 {
+    background: #c7b58b;
+    padding: 60px;
+    box-shadow: 0 0 20px rgb(0 0 0 / 15%);
+    height: 100%;
+}
+.section-works .img-work {
+    height: 400px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+/* footer-section */
+.footer-section {
+    background: #1c1c1c;
+    padding: 60px 0;
+}
+
+.logo-ftr{
+    width: 170px;
+}
